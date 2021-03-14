@@ -1,0 +1,10 @@
+<soapenv:Envelope
+        xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:os="http://spring/soap-producer-demo">
+        <soapenv:Header/>
+        <soapenv:Body>
+            <os:getOrderRequest>
+                <os:orderId>1L</os:orderId>
+            </os:getOrderRequest>
+        </soapenv:Body>
+</soapenv:Envelope>
